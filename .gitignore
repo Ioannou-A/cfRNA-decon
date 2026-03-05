@@ -1,5 +1,8 @@
 # Ignore large raw matrices
 COO-Matrix/*.txt
+.DS_Store
+TOO-Matrix/20250405_PhenotypeClass_LessTissueV2_Sampling10.txt 
+TOO-Matrix/20250405_GeneID_LessTissueV2_Sampling10-Unique.tsv
 
 # Keep compressed matrices
 !COO-Matrix/*.txt.gz
