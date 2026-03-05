@@ -1,0 +1,5 @@
+# Ignore large raw matrices
+COO-Matrix/*.txt
+
+# Keep compressed matrices
+!COO-Matrix/*.txt.gz
