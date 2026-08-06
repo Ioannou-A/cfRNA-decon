@@ -4,5 +4,12 @@ COO-Matrix/*.txt
 TOO-Matrix/20250405_PhenotypeClass_LessTissueV2_Sampling10.txt 
 TOO-Matrix/20250405_GeneID_LessTissueV2_Sampling10-Unique.tsv
 
+# Ignore large imput files
+DECODE/GSE255555_pedInflam_filtered_counts_CPM_GeneNames.txt
+DECODE/20250616_All-Tissues-NoDup_Random_Simulated_v2_Counts.txt
+
+# Ignore large train TOO DECODE file (this is included on the zenodo DOI)
+DECODE/save_models/56200/GTEx_s250_a21_ab1_NewTrain_NewSampling_Dirichtler_Abundant_40k_DANNpatience10_Stage3Val.pt
+
 # Keep compressed matrices
 !COO-Matrix/*.txt.gz
